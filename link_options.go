@@ -3,7 +3,7 @@ package amqp
 import (
 	"time"
 
-	"github.com/Azure/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/encoding"
 )
 
 type SenderOptions struct {

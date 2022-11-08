@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Azure/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/encoding"
 )
 
 // Error Conditions

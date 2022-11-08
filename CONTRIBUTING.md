@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to go-amqp.
 
-- For reporting bugs, requesting features, or asking for support, please file an issue in the [issues](https://github.com/Azure/go-amqp/issues) section of the project.
+- For reporting bugs, requesting features, or asking for support, please file an issue in the [issues](https://github.com/pdaures/go-amqp/issues) section of the project.
 
 - If you would like to become an active contributor to this project please follow the instructions provided in [Microsoft Azure Projects Contribution Guidelines](https://azure.github.io/azure-sdk/policies_opensource.html).
 

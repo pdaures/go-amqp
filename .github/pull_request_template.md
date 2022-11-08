@@ -9,4 +9,4 @@ Please verify the following before submitting your PR, thank you!
 - [ ] Updates to [CHANGELOG.md][] are included.
 - [ ] MIT license headers are included in each file.
 
-[CHANGELOG.md]: https://github.com/Azure/go-amqp/blob/main/CHANGELOG.md
+[CHANGELOG.md]: https://github.com/pdaures/go-amqp/blob/main/CHANGELOG.md

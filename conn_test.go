@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-amqp/internal/encoding"
-	"github.com/Azure/go-amqp/internal/frames"
-	"github.com/Azure/go-amqp/internal/mocks"
-	"github.com/Azure/go-amqp/internal/test"
+	"github.com/pdaures/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/frames"
+	"github.com/pdaures/go-amqp/internal/mocks"
+	"github.com/pdaures/go-amqp/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

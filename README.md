@@ -1,12 +1,12 @@
-# **github.com/Azure/go-amqp**
+# **github.com/pdaures/go-amqp**
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/Azure/go-amqp)](https://pkg.go.dev/github.com/Azure/go-amqp)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/pdaures/go-amqp)](https://pkg.go.dev/github.com/pdaures/go-amqp)
 [![Build Status](https://dev.azure.com/azure-sdk/public/_apis/build/status/go/Azure.go-amqp?branchName=master)](https://dev.azure.com/azure-sdk/public/_build/latest?definitionId=1292&branchName=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Azure/go-amqp)](https://goreportcard.com/report/github.com/Azure/go-amqp)
-[![GoDoc](https://godoc.org/github.com/Azure/go-amqp?status.svg)](http://godoc.org/github.com/Azure/go-amqp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pdaures/go-amqp)](https://goreportcard.com/report/github.com/pdaures/go-amqp)
+[![GoDoc](https://godoc.org/github.com/pdaures/go-amqp?status.svg)](http://godoc.org/github.com/pdaures/go-amqp)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Azure/go-amqp/main/LICENSE)
 
-github.com/Azure/go-amqp is an AMQP 1.0 client implementation for Go.
+github.com/pdaures/go-amqp is an AMQP 1.0 client implementation for Go.
 
 [AMQP 1.0](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html) is not compatible with AMQP 0-9-1 or 0-10, which are
 the most common AMQP protocols in use today. A list of AMQP 1.0 brokers and other
@@ -17,7 +17,7 @@ This library aims to be stable and worthy of production usage, but the API is st
 ## Install
 
 ```
-go get -u github.com/Azure/go-amqp
+go get -u github.com/pdaures/go-amqp
 ```
 
 ## Contributing
@@ -49,7 +49,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Azure/go-amqp"
+	"github.com/pdaures/go-amqp"
 )
 
 func main() {
@@ -128,8 +128,8 @@ func main() {
 
 | Project | Description |
 |---------|-------------|
-| [github.com/Azure/azure-event-hubs-go](https://github.com/Azure/azure-event-hubs-go) * | Library for interacting with Microsoft Azure Event Hubs. |
-| [github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus](https://github.com/Azure/azure-sdk-for-go/tree/main/sdk/messaging/azservicebus) * | Library for interacting with Microsoft Azure Service Bus. |
+| [github.com/pdaures/azure-event-hubs-go](https://github.com/pdaures/azure-event-hubs-go) * | Library for interacting with Microsoft Azure Event Hubs. |
+| [github.com/pdaures/azure-sdk-for-go/sdk/messaging/azservicebus](https://github.com/pdaures/azure-sdk-for-go/tree/main/sdk/messaging/azservicebus) * | Library for interacting with Microsoft Azure Service Bus. |
 | [gocloud.dev/pubsub](https://gocloud.dev/pubsub) * | Library for portably interacting with Pub/Sub systems. |
 | [qpid-proton](https://github.com/apache/qpid-proton/tree/go1) | AMQP 1.0 library using the Qpid Proton C bindings. |
 

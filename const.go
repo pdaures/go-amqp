@@ -1,6 +1,6 @@
 package amqp
 
-import "github.com/Azure/go-amqp/internal/encoding"
+import "github.com/pdaures/go-amqp/internal/encoding"
 
 // Sender Settlement Modes
 const (

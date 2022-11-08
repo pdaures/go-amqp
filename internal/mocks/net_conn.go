@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Azure/go-amqp/internal/buffer"
-	"github.com/Azure/go-amqp/internal/encoding"
-	"github.com/Azure/go-amqp/internal/frames"
+	"github.com/pdaures/go-amqp/internal/buffer"
+	"github.com/pdaures/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/frames"
 )
 
 // NewNetConn creates a new instance of NetConn.

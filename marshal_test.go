@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-amqp/internal/buffer"
-	"github.com/Azure/go-amqp/internal/encoding"
-	"github.com/Azure/go-amqp/internal/frames"
-	"github.com/Azure/go-amqp/internal/test"
+	"github.com/pdaures/go-amqp/internal/buffer"
+	"github.com/pdaures/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/frames"
+	"github.com/pdaures/go-amqp/internal/test"
 )
 
 var exampleFrames = []struct {

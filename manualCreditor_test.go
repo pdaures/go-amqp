@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/encoding"
 	"github.com/stretchr/testify/require"
 )
 

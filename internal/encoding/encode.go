@@ -8,7 +8,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/Azure/go-amqp/internal/buffer"
+	"github.com/pdaures/go-amqp/internal/buffer"
 )
 
 type marshaler interface {

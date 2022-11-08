@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-amqp/internal/buffer"
-	"github.com/Azure/go-amqp/internal/encoding"
-	"github.com/Azure/go-amqp/internal/frames"
-	"github.com/Azure/go-amqp/internal/testconn"
 	"github.com/fortytw2/leaktest"
+	"github.com/pdaures/go-amqp/internal/buffer"
+	"github.com/pdaures/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/frames"
+	"github.com/pdaures/go-amqp/internal/testconn"
 )
 
 func fuzzConn(data []byte) int {

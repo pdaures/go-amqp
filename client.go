@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Azure/go-amqp/internal/debug"
-	"github.com/Azure/go-amqp/internal/encoding"
-	"github.com/Azure/go-amqp/internal/frames"
+	"github.com/pdaures/go-amqp/internal/debug"
+	"github.com/pdaures/go-amqp/internal/encoding"
+	"github.com/pdaures/go-amqp/internal/frames"
 )
 
 // Client is an AMQP client connection.

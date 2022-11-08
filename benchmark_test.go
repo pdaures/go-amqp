@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	amqp "github.com/Azure/go-amqp"
+	amqp "github.com/pdaures/go-amqp"
 )
 
 func BenchmarkSimple(b *testing.B) {
